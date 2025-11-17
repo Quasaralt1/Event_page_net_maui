@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoEventos.Views.Sobre">
+    <VerticalStackLayout>
+        <Label 
+            Text="Sobre o projeto"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   TextColor="#784EFF"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,5,0,20" />
+        <Label
+            Text="Este é um projeto desenvolvido para a realização de uma tarefa do curso técnico de desenvolvimento de sistemas EAD da ETEC"
+            TextColor="#784EFF"
+            FontSize="16"
+            Margin="10,0,10,0"
+            HorizontalOptions="CenterAndExpand"/>
+        <Label
+            Text="Criado por Murilo Mattia em novembro de 2025, Versão 1.0"
+            TextColor="White"
+            Margin="10,10,10,0"
+            HorizontalOptions="Start"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>
